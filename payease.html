@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayEase - Simplify Your Payments</title>
+    <meta name="description" content="PayEase - Secure digital payments, UPI transfers, mobile recharges, bill payments, and wallet management. Fast, secure, and user-friendly.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/payease.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="nav-brand">
+                <i class="fas fa-wallet brand-icon"></i>
+                <span class="brand-name">PayEase</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#payments" class="nav-link">Payments</a></li>
+                    <li class="nav-item"><a href="#wallet" class="nav-link">Wallet</a></li>
+                    <li class="nav-item"><a href="#recharge" class="nav-link">Recharge</a></li>
+                    <li class="nav-item"><a href="#offers" class="nav-link">Offers</a></li>
+                    <li class="nav-item"><a href="#business" class="nav-link">Business</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-buttons">
+                    <button class="btn btn-secondary">Login</button>
+                    <button class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Trusted by 50M+ users</span>
+                </div>
+                <h1 class="hero-title">
+                    Simplify Your Payments with 
+                    <span class="gradient-text">PayEase</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Instant recharges, bill payments, and money transfers — all in one place. 
+                    Experience the future of digital payments.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i>
+                        Get Started
+                    </button>
+                    <button class="btn btn-outline btn-lg">
+                        <i class="fab fa-apple"></i>
+                        <i class="fab fa-google-play"></i>
+                        Download App
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>50M+</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>₹500Cr+</h3>
+                        <p>Daily Transactions</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>99.9%</h3>
+                        <p>Uptime</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="app-ui">
+                                <div class="app-header">
+                                    <div class="app-balance">
+                                        <span class="balance-label">Wallet Balance</span>
+                                        <h2 class="balance-amount">₹12,450</h2>
+                                    </div>
+                                </div>
+                                <div class="quick-actions">
+                                    <div class="action-btn">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Recharge</span>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="fas fa-exchange-alt"></i>
+                                        <span>Transfer</span>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="fas fa-file-invoice"></i>
+                                        <span>Bills</span>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>Scan</span>
+                                    </div>
+                                </div>
+                                <div class="recent-activity">
+                                    <div class="activity-item">
+                                        <i class="fas fa-arrow-up"></i>
+                                        <div class="activity-info">
+                                            <span>Sent to John</span>
+                                            <small>Today, 2:30 PM</small>
+                                        </div>
+                                        <span class="activity-amount">-₹500</span>
+                                    </div>
+                                    <div class="activity-item">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <div class="activity-info">
+                                            <span>Received from Sarah</span>
+                                            <small>Today, 11:15 AM</small>
+                                        </div>
+                                        <span class="activity-amount success">+₹1,200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card card-1">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>100% Secure</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-bolt"></i>
+                    <span>Instant Transfer</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-gift"></i>
+                    <span>Cashback Rewards</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="payments">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Everything you need for seamless digital payments</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3 class="service-title">UPI Transfer</h3>
+                    <p class="service-description">Send and receive money instantly using UPI. Free, fast, and available 24/7.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="featured-badge">Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Recharge & Bills</h3>
+                    <p class="service-description">Recharge mobile, DTH, pay electricity, water, gas bills with instant confirmation.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3 class="service-title">Digital Wallet</h3>
+                    <p class="service-description">Store money securely in your wallet. Pay merchants and friends with one tap.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3 class="service-title">QR Payments</h3>
+                    <p class="service-description">Scan any QR code to pay. Accept payments with your personalized QR code.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3 class="service-title">Booking Services</h3>
+                    <p class="service-description">Book flights, trains, hotels, and buses. Get exclusive deals and offers.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 class="service-title">Cashback Offers</h3>
+                    <p class="service-description">Earn cashback on every transaction. Unlock exclusive rewards and benefits.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Highlights Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose PayEase?</h2>
+                <p class="section-subtitle">Experience the best in digital payment technology</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">100% Secure</h3>
+                        <p class="feature-description">Bank-grade encryption and multi-layer security. Your money and data are always protected.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Two-factor authentication</li>
+                            <li><i class="fas fa-check"></i> PCI DSS compliant</li>
+                            <li><i class="fas fa-check"></i> Fraud detection system</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Instant Transfers</h3>
+                        <p class="feature-description">Send money in seconds to any bank account. No delays, no hassles, no hidden charges.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Real-time processing</li>
+                            <li><i class="fas fa-check"></i> 24/7 availability</li>
+                            <li><i class="fas fa-check"></i> Zero transaction fees</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Cashback Rewards</h3>
+                        <p class="feature-description">Earn cashback on every transaction. More you use, more you save with exclusive rewards.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Up to 20% cashback</li>
+                            <li><i class="fas fa-check"></i> Instant credit to wallet</li>
+                            <li><i class="fas fa-check"></i> Special merchant offers</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">24/7 Support</h3>
+                        <p class="feature-description">Our dedicated support team is always here to help you with any queries or issues.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Live chat support</li>
+                            <li><i class="fas fa-check"></i> Phone & email support</li>
+                            <li><i class="fas fa-check"></i> Quick resolution</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Section -->
+    <section class="business" id="business">
+        <div class="container">
+            <div class="business-content">
+                <div class="business-text">
+                    <div class="business-badge">
+                        <i class="fas fa-briefcase"></i>
+                        <span>For Business</span>
+                    </div>
+                    <h2 class="business-title">Grow Your Business with <span class="gradient-text">PayEase</span></h2>
+                    <p class="business-description">
+                        Accept digital payments easily and get powerful insights for your business. 
+                        Join thousands of merchants who trust PayEase for their payment needs.
+                    </p>
+                    
+                    <div class="business-features">
+                        <div class="business-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Zero Setup Cost</h4>
+                                <p>Get started instantly with no setup fees or hidden charges</p>
+                            </div>
+                        </div>
+                        <div class="business-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Real-time Analytics</h4>
+                                <p>Track sales, revenue, and customer insights on your dashboard</p>
+                            </div>
+                        </div>
+                        <div class="business-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Quick Settlements</h4>
+                                <p>Get your money settled to your bank account within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="business-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Multiple Payment Options</h4>
+                                <p>Accept UPI, cards, wallets, and net banking payments</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i>
+                        Start for Free
+                    </button>
+                </div>
+                
+                <div class="business-image">
+                    <div class="business-card">
+                        <div class="card-header">
+                            <h4>Today's Overview</h4>
+                            <span class="date">March 15, 2025</span>
+                        </div>
+                        <div class="card-stats">
+                            <div class="stat-box">
+                                <span class="stat-label">Total Sales</span>
+                                <h3 class="stat-value">₹45,230</h3>
+                                <span class="stat-change positive"><i class="fas fa-arrow-up"></i> 12.5%</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-label">Transactions</span>
+                                <h3 class="stat-value">156</h3>
+                                <span class="stat-change positive"><i class="fas fa-arrow-up"></i> 8.3%</span>
+                            </div>
+                        </div>
+                        <div class="card-chart">
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 80%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                            <div class="chart-bar" style="height: 90%"></div>
+                            <div class="chart-bar" style="height: 85%"></div>
+                            <div class="chart-bar" style="height: 95%"></div>
+                            <div class="chart-bar" style="height: 100%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Growth +25%</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-users"></i>
+                        <span>1.2K Customers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Users Say</h2>
+                <p class="section-subtitle">Join millions of satisfied customers</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "PayEase has made my life so much easier! I can pay all my bills, recharge my phone, 
+                        and transfer money to friends instantly. The cashback offers are amazing too!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <span>Mumbai, India</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "As a small business owner, PayEase has been a game-changer. The QR payment feature 
+                        is fantastic, and I get my settlements quickly. Highly recommend!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Rajesh Kumar</h4>
+                            <span>Delhi, India</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Super secure and reliable! I've been using PayEase for over a year now. 
+                        The app is user-friendly, and customer support is always responsive."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sneha Patel</h4>
+                            <span>Bangalore, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Experience the Future of Payments?</h2>
+                <p class="cta-subtitle">Join millions of users who trust PayEase for their daily transactions</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i>
+                        Get Started Free
+                    </button>
+                    <button class="btn btn-white btn-lg">
+                        <i class="fas fa-mobile-alt"></i>
+                        Download App
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-brand">
+                        <i class="fas fa-wallet brand-icon"></i>
+                        <span class="brand-name">PayEase</span>
+                    </div>
+                    <p class="footer-description">
+                        Making digital payments simple, secure, and accessible for everyone. 
+                        Experience the future of fintech with PayEase.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Payments</a></li>
+                        <li><a href="#">Wallet</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">QR Code</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 PayEase. All rights reserved.</p>
+                <div class="footer-badges">
+                    <span class="badge-item"><i class="fas fa-lock"></i> Secure Payments</span>
+                    <span class="badge-item"><i class="fas fa-certificate"></i> PCI Certified</span>
+                    <span class="badge-item"><i class="fas fa-shield-alt"></i> ISO Compliant</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
