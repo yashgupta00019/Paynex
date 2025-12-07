@@ -1,4 +1,4 @@
-# Paynex  
+# Payease
 A simple, user-friendly digital payment platform.
 
 ## 📌 Overview  
